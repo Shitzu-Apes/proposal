@@ -8,7 +8,7 @@ SHITZU is the very first meme token that is native to Aurora. It has been minted
 
 The SHITZU token has always been isolated on Aurora without an existing bridging solution to bring it to other chains.
 
-One might be wondering why it is not possible to use [Rainbow Bridge](https://rainbowbridge.app/). The problem with Rainbow Bridge is that it can only transfer native Near tokens (NEP-141) to Aurora and Ethereum. There is a [WIP solution](https://github.com/aurora-is-near/native-erc20-connector) to also allow Aurora native ERC-20 tokens to be bridged to Near, but development on this solution has been halted.
+One might be wondering why it is not possible to use [Rainbow Bridge](https://rainbowbridge.app/). The problem with Rainbow Bridge is that it can only transfer native Near tokens (NEP-141) to Aurora and Ethereum and native ERC-20 tokens from Ethereum to Near and Aurora. There is a [WIP solution](https://github.com/aurora-is-near/native-erc20-connector) to also allow Aurora native ERC-20 tokens to be bridged to Near, but development on this solution has been halted.
 It might be a possibility to ask the Aurora team to fully implement and deploy this solution. However the novel design might lead to problems with interoperability across various smart contracts, if it involves sending tokens from Near to Aurora, because the bridging looks different.
 
 Another solution would include usage of [Wormhole](https://wormhole.com/) as a bridging solution. Via [Portal Bridge](https://portalbridge.com/) it is possible to permissionlessly bridge any token across a wide range of chains. However due to stability/security reasons they stopped supporting Aurora at some point.
